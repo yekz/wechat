@@ -62,7 +62,7 @@ class Js
     {
         $this->appId     = $config['app_id'];
         $this->appSecret = $config['secret'];
-        $this->cache     = new Cache($appId);
+        $this->cache     = new Cache($config['app_id']);
     }
 
     /**
